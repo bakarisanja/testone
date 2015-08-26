@@ -1,6 +1,6 @@
 <?php
 /**
- * Step 1: Require the Slim Framework
+ * sdf Step 1: Require the Slim Framework
  *
  * If you are not using Composer, you need to require the
  * Slim Framework and register its PSR-0 autoloader.
