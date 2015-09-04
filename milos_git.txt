@@ -1,0 +1,26 @@
+
+# INICIJALIZACIJA NOVOG REPOZITORIJA
+
+mkdir /c/www/testone
+cd /c/www/testone
+
+napraviti u njemu README.md
+dodati nesto bilo sta u README.md
+
+izvrsiti (otvoriti git bash i "cd /c/www/testone/")
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:igor-davidov/testone.git
+git push -u origin master
+
+
+# dodavanje novih fajlova (otvoriti git bash i "cd /c/www/testone/")
+git init
+git add -u  ako su sve novi folderi i fajlovi ######  prvo uraditi   git add -A za slim repozitorijum
+git commit -m "NAZIV IZMENE"
+git push -u origin master
+
+#git add -A kad imam vise fajlova u folderu
+
+
